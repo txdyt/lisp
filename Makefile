@@ -1,6 +1,6 @@
 OUT = bin
 CFLAGS = -O0 -g -Wall -Wextra -pedantic -fno-strict-aliasing -std=c99
-TARGETS = mmap-demo compiling-integers
+TARGETS = mmap-demo compiling-integers compiling-immediates compiling-unary
 BINARIES = $(addprefix $(OUT)/, $(TARGETS))
 TESTS = $(addprefix test-, $(TARGETS))
 
